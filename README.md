@@ -64,9 +64,7 @@ Start training only when intended, after obtaining pretrained weights:
 python train.py --condition C4 --fold 1 --encoder-path weights/CySecBERT --device cuda
 ```
 
-The maximum budget is 120 original-training-set-equivalent epochs, batch 16,
-microbatch 2 and patience 20. Selection uses validation triple micro-F1, then
-entity micro-F1; test data are evaluated after selection. Relative paths are
+Relative paths are
 resolved from the repository root. Existing outputs are not overwritten.
 
 Predict from a checkpoint produced by this implementation, then evaluate:
