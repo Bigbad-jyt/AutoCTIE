@@ -1,0 +1,27 @@
+# Paths below are relative to this repository, not to the caller's working folder.
+data: data
+encoded: data/encoded
+conditions:
+  C1: {encoder: BERT, augmentation: false}
+  C2: {encoder: BERT, augmentation: true}
+  C3: {encoder: CySecBERT, augmentation: false}
+  C4: {encoder: CySecBERT, augmentation: true}
+training:
+  original_equivalent_epochs: 120
+  effective_batch: 16
+  micro_batch: 2
+  evaluation_batch: 2
+  encoder_lr: 0.00002
+  head_lr: 0.001
+  weight_decay: 0.01
+  gradient_clip: 1.0
+  warmup_ratio: 0.1
+  patience: 20
+  deterministic: true
+  cpu_threads: 2
+joint:
+  lstm_hidden: 256
+  lstm_layers: 1
+  relation_hidden: 256
+  dropout: 0.1
+  lambda_relation: 1.0

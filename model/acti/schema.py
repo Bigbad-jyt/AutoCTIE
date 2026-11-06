@@ -1,0 +1,5 @@
+"""Entity and relation labels."""
+ENTITY_TYPES = ('AP', 'AV', 'CoA', 'Com', 'Con', 'Ide', 'Loc', 'Tool', 'Veh', 'Vul')
+RELATION_TYPES = ('based-on', 'consists-of', 'hasImpact', 'hasInterface',
+                  'hasVulnerability', 'located-at', 'mitigates', 'related-to', 'targets', 'uses')
+

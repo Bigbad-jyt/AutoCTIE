@@ -1,0 +1,8 @@
+# Install a CPU or CUDA build of PyTorch suited to the target machine.
+torch==2.8.0
+transformers==4.56.2
+tokenizers==0.22.0
+numpy==2.2.6
+PyYAML==6.0.2
+filelock>=3.13,<4
+safetensors>=0.4.3,<1

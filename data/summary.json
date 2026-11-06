@@ -1,0 +1,41 @@
+{
+  "original_unique_sentences": 3627,
+  "folds": [
+    {
+      "fold": 1,
+      "train": 2316,
+      "validation": 305,
+      "test": 596,
+      "augmented": 464
+    },
+    {
+      "fold": 2,
+      "train": 2157,
+      "validation": 271,
+      "test": 771,
+      "augmented": 432
+    },
+    {
+      "fold": 3,
+      "train": 2116,
+      "validation": 304,
+      "test": 808,
+      "augmented": 424
+    },
+    {
+      "fold": 4,
+      "train": 2197,
+      "validation": 285,
+      "test": 725,
+      "augmented": 440
+    },
+    {
+      "fold": 5,
+      "train": 2149,
+      "validation": 339,
+      "test": 727,
+      "augmented": 430
+    }
+  ],
+  "augmentation_total": 2190
+}
