@@ -76,8 +76,6 @@ python predict.py --checkpoint outputs/fold1_C4/checkpoints/step_000145 --input 
 python evaluate.py --gold data/encoded/CySecBERT/fold_1/test.jsonl --predictions outputs/predictions.jsonl --output outputs/evaluation
 ```
 
-Replace `step_000145` with the validation-selected checkpoint named in your
-run's `summary.json`; it is a path example, not a supplied trained checkpoint.
 Prediction ignores any gold entity/relation fields in its input.
 
 ## Scope
