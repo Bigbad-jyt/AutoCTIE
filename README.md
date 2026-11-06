@@ -83,10 +83,7 @@ Prediction ignores any gold entity/relation fields in its input.
 ## Scope
 
 This repository provides the AutoCTIE implementation, prepared original and
-selected synthetic data, and necessary configuration. It does not bundle SpERT
-or Acti comparison implementations, pretrained model weights, trained checkpoints,
-full training logs, or raw LLM generation/review histories. External comparison
-experiments and full run archives are maintained separately.
+selected synthetic data, and necessary configuration.
 
 ## License and attribution
 
